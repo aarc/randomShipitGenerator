@@ -19,5 +19,10 @@
 		"48": "images/48x48-normal.png",
 		"128": "images/128x128-normal.png"
 	},
-	"web_accessible_resources": ["images/xmas/38x38.png"]
+	"web_accessible_resources": ["images/xmas/38x38.png"],
+	// https://developer.chrome.com/extensions/optionsV2
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	}
 }
